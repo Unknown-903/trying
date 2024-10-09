@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>╔════════════⦿\n├⋗ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={5493260414}'>AjDonna</a>\n├⋗ ʟᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n├⋗ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n├⋗ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/AjDonnaOfficial>File Store Bot</a>\n├⋗ Main Channel : <a href=https://t.me/Animes_Bash>Anime Bash</a>\n├⋗ Support Group : <a href=https://t.me/Anime_Bash_Chat>Anime Talks</a>\n╚═════════════════⦿</b>",
+            text = f"<b>╔════════════⦿\n├⋗ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={5574593875}'>UNKNOWN</a>\n├⋗ ʟᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n├⋗ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n├⋗ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/Officialcreater>File Store Bot</a>\n├⋗ Main Channel : <a href=https://t.me/Animes_Bash>Anime Bash</a>\n├⋗ Support Group : <a href=https://t.me/Anime_Bash_Chat>Anime Talks</a>\n╚═════════════════⦿</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
